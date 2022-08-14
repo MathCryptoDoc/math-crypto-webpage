@@ -65,7 +65,7 @@ Below we plot the scores for each build in a [box plot](https://en.wikipedia.org
 
 We first compare **CPU scores**. There are clear differences visible but there is no one winning build. We will investigate good build options below.
 
-![CPU scores](/images/scores_cpu_i7_12700.svg)
+![CPU scores](images/scores_cpu_i7_12700.svg)
 
 Regarding **disk scores**, all builds behave very similarly except the docker image, which is worse for random write.
 
