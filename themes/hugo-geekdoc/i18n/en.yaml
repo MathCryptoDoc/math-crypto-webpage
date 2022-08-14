@@ -39,7 +39,7 @@ posts_tagged_with: All posts tagged with '{{ . }}'
 footer_build_with: >  
   <svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
   <a href="https://kusama.subscan.io/validator/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq" class="gdoc-footer__link">
-  EAR...FAq</a>
+  EARQ...pFAq</a>
 footer_legal_notice: Legal Notice
 footer_privacy_policy: Privacy Policy
 footer_content_license_prefix: >
