@@ -1,2 +1,3 @@
 # math-crypto-webpage
-Webpage
+Hugo source files for https://math-crypto.com/
+
