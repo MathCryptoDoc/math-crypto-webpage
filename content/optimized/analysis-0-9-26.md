@@ -69,11 +69,11 @@ We first compare **CPU scores**. There are clear differences visible but there i
 
 Regarding **disk scores**, all builds behave very similarly except the docker image, which is worse for random write.
 
-![Disk scores](/images/scores_disk_i7_12700.svg)
+![Disk scores](scores_disk_i7_12700.svg)
 
 For **memory score**, the situation is similar to random write (only docker underperformed).
 
-{{< figure src="/images/scores_mem_i7_12700.svg" width="50%" alt="Memory scores" >}}
+{{< figure src="scores_mem_i7_12700.svg" width="50%" alt="Memory scores" >}}
 
 ## Preliminary conclusions
 
@@ -89,7 +89,7 @@ A few conclusions are easy to draw:
 
 The optimization options had a clear influence on the CPU scores (but not for disk and memory). Let us therefore plot both CPU scores and label a few interesting builds.
 
-![Memory scores](/images/scatter_cpu_i7_12700.svg)
+![Memory scores](scatter_cpu_i7_12700.svg)
 
 Determining a winning build is not so easy:
 - There are two CPU scores. Ideally, we want to find *the best build for both scores*, but from the figure we see that this is not possible: number 45 wins in SR25519-Verify, while number 33 wins BLAKE2-256. 
@@ -118,7 +118,7 @@ We see some **clear patterns**:
 
 For completeness, we check again the good candidate builds. Except for one bad outlier in build number 33, there is not much more information here: *all builds have more or less the same spread*. (A build with a high median score but a large spread would not be desirable due to unpredictable performance.)
 
-![Memory scores](/images/pareto_scores_cpu_i7_12700.svg)
+![Memory scores](pareto_scores_cpu_i7_12700.svg)
 
 
 ## Winning optimization options
