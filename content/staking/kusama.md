@@ -1,5 +1,5 @@
 ---
-title: "Kusama validator"
+title: "Kusama"
 weight: -10
 ---
 
