@@ -1,16 +1,16 @@
 ---
 title: "Summary"
-weight: 20
+weight: -1
 ---
 
 
-Based on our [detailed analysis](analysis-0-9-26), we have compiled polkadot version 0.9.26 with the following optimization options
+Based on our [detailed analysis](/optimized/analysis-0-9-26), we have compiled polkadot version 0.9.26 with the following optimization options
 ```Shell
 rustup override set nightly
 export RUSTFLAGS="-C target-cpu=native -C codegen=1"
 cargo build --release --target=x86_64-unknown-linux-gnu --locked -Z unstable-options
 ```
-In the table below, the benchmark scores are listed for a few machines with different CPU architectures. As explained in our [detailed analysis](analysis-0-9-26), we only focus on CPU scores and took the median value over 20 runs.
+In the table below, the benchmark scores are listed for a few machines with different CPU architectures. As explained [here](/optimized/analysis-0-9-26), we only focus on CPU scores and took the median value over 20 runs.
 
 
 {{< bootstrap-table table_class="table table-dark table-striped table-bordered" >}}
