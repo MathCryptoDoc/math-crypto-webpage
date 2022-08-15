@@ -27,7 +27,7 @@ The official polkadot binaries and Docker images from Parity are for *generic* c
 
 By compiling yourself, validators can run at optimal performance!
 
-{{< button size="large" relref="/optimized/summary" >}}Get started...{{< /button >}}
+{{< button size="large" relref="/optimized/summary-0-9-26" >}}Get started...{{< /button >}}
 
 {{< /columns >}}
 

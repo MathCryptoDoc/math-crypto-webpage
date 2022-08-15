@@ -1,6 +1,6 @@
 ---
-title: "Analysis for v0.9.26"
-weight: 3
+title: "Analysis v0.9.26"
+weight: -9
 ---
 
 We investigated the benchmark scores on a recent CPU ([Intel i7-12700](https://cpu.userbenchmark.com/SpeedTest/1750830/12th-Gen-IntelR-CoreTM-i7-12700)) with NVMe drive for polkadot version 0.9.26. All possible variations of the optimization options explained [here]({{< ref "/optimized/optim-options" >}} "Optimization options") were tested. This resulted in 36 different *builds* (including the official polkadot binary and docker image) that are listed below:
