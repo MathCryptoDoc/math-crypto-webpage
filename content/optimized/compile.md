@@ -1,6 +1,6 @@
 ---
 title: "Compile instructions"
-weight: -10
+weight: 0
 ---
 The [official polkadot binaries](https://github.com/paritytech/polkadot/releases) are reasonably optimized but they are not targeting specific CPU architectures. The same is true for the [official docker image](https://hub.docker.com/r/parity/polkadot) since they inject the official binary.
 
