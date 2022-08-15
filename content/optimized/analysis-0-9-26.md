@@ -1,5 +1,6 @@
 ---
 title: "Analysis for v0.9.26"
+weight: 3
 ---
 
 We investigated the benchmark scores on a recent CPU ([Intel i7-12700](https://cpu.userbenchmark.com/SpeedTest/1750830/12th-Gen-IntelR-CoreTM-i7-12700)) with NVMe drive for polkadot version 0.9.26. All possible variations of the optimization options explained [here]({{< ref "/optimized/optim-options" >}} "Optimization options") were tested. This resulted in 36 different *builds* (including the official polkadot binary and docker image) that are listed below:
@@ -49,11 +50,17 @@ We investigated the benchmark scores on a recent CPU ([Intel i7-12700](https://c
 {{< /bootstrap-table >}}
 {{< /expand >}}
 
+Rust versions used were ``stable=1.62.1 (e092d0b6b 2022-07-16)`` and ``nightly=1.65.0-nightly (d394408fb 2022-08-07)``.
+
 For each build, we repeated the following benchmark 20 times:
 ```Shell
 polkadot benchmark machine --disk-duration 30
 ```
 Total CPU utilization before and after each test was negligible (< 1%) to make sure that the benchmark was not disturbed by competing CPU tasks.
+
+{{< hint type=tip >}}
+You can repeat these experiments (on your machine) by using the source files on [our Github page](https://github.com/MathCryptoDoc/polkadot-optimized).
+{{< /hint >}}
 
 {{< hint type=note >}}
 Starting with polkadot version 0.9.27, there is a new benchmark for timing the execution speed of an extrinsic. We will include this score in future analyses.
@@ -129,7 +136,7 @@ rustup override set nightly
 export RUSTFLAGS="-C target-cpu=native -C codegen=1"
 cargo build --release --target=x86_64-unknown-linux-gnu --locked -Z unstable-options
 ```
-These options result in very little spread and almost the best CPU scores. The build time is only 15 minutes on a modern machine, compared to almost double for LTO builds. 
+These options result in very little spread and almost the best CPU scores. The build time is only 15 minutes on a modern machine, compared to almost double for LTO builds. (An interesting mathematical property is also that build 32 is better than the convex combination of build 45 and 33.)
 
 {{< hint type=tip >}}
 The option ``target-cpu=native`` selects the best CPU optimization for the CPU that runs the compiler. If you want to compile for a different CPU, you need to specify the architecture.
