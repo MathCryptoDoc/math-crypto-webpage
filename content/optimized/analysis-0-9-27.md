@@ -124,7 +124,7 @@ Finally, the **extrinsic timing** is similar to the **CPU scores**, except that 
 **New information**:
 - There are 8 builds (30, 6, 31, 7, 19, 18, 43, 42) that have very bad CPU scores. 
 
-Maybe surprisingly, the worst builds do not all simply have ``opt-level = 2``. It seems that ``codegen-units=16`` and ``lto=off`` is the reason, regardless of ``opt-level``.
+Maybe surprisingly, the **worst builds** do not all simply have ``opt-level = 2``. It seems that ``codegen-units=16`` and ``lto=off`` is the reason, regardless of ``opt-level``.
 
 {{< bootstrap-table table_class="table table-dark table-striped table-bordered" >}}
 |   nb_build | arch      | toolchain   |   codegen-units | lto   |   opt-level |
@@ -145,7 +145,7 @@ Maybe surprisingly, the worst builds do not all simply have ``opt-level = 2``. I
 
 We will now find build options that have **good performance for the two CPU scores and the time for an extrinsic**. 
 
-Since there is not one build that wins in all these three scores, we identify the Pareto efficient builds. In case of only two scores, determining the [Pareto front](https://en.wikipedia.org/wiki/Pareto_front) can be done by hand on a scatter plot. Since our test has three scores, we compute them algorithmically; details are in the [Python notebook](https://github.com/MathCryptoDoc/polkadot-optimized/blob/main/notebook/analyze-0-9-26.ipynb). Due to statistical errors on the scores, we also find all builds that are **close to these Pareto efficient** ones. To that end, we define a box around each score with width equal to its statistical error. We then calculate the distance between all boxes. Again, details are in the [Python notebook](https://github.com/MathCryptoDoc/polkadot-optimized/blob/main/notebook/analyze-0-9-27.ipynb).
+Since there is not one build that wins in all these three scores, we identify the Pareto efficient builds. In case of only two scores, determining the [Pareto front](https://en.wikipedia.org/wiki/Pareto_front) can be done by hand on a scatter plot. Since our test has three scores, we compute these points algorithmically instead; details are in the [Python notebook](https://github.com/MathCryptoDoc/polkadot-optimized/blob/main/notebook/analyze-0-9-26.ipynb). Due to statistical errors on the scores, we also find all builds that are **close to these Pareto efficient builds**. To that end, we define a box around each score with width equal to its statistical error. A build is included if its box overlaps to that of a Pareto efficient build. Again, details are in the [Python notebook](https://github.com/MathCryptoDoc/polkadot-optimized/blob/main/notebook/analyze-0-9-27.ipynb).
 
 This gives us the following winning optimization options:
 

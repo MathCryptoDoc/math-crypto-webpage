@@ -51,6 +51,10 @@ cargo build --release --target=x86_64-unknown-linux-gnu --locked -Z unstable-opt
 ```
 Compiling takes a little while. On a fast machine with NVMe storage, it is about 15 minutes.	
 
+{{< hint type=important >}}
+From our [latest analysis](/optimized/analysis-0-9-27), we have detected better build options that have to be specified as a profile in the ``Cargo.toml`` file. Please use our convenient [Python script](https://github.com/MathCryptoDoc/polkadot-optimized/blob/main/compile.py) for building.
+{{< /hint >}}
+
 ## Benchmark and deploy
 
 Benchmark your optimized binary ``polkadot_opt`` to make sure it runs OK.
