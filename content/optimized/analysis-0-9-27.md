@@ -15,6 +15,10 @@ We investigated the benchmark scores on a recent CPU ([Intel i7-12700](https://c
 The maximum code optimization is ``opt-level=3``. As suggested [here](https://doc.rust-lang.org/cargo/reference/profiles.html#opt-level), lowering this value to ``opt-level=2`` might produce better results. This is counterintuitive but, as we will see, it leads indeed to better results (sometimes). Similarly, ``lto=fat``, while expensive to build, does not always lead to the fastest code; see [here](http://blog.llvm.org/2016/06/thinlto-scalable-and-incremental-lto.html).
 {{< /hint >}}
 
+{{< hint type=important >}}
+The same analysis explained on this page was also performed on a Ryzen 5 3600. Even though this is a less powerful processor, compiling yourself brings tremendous improvements (20% and 10%, resp.) for the SR25519-Verify score and the timing of the Remark Extrinsic. See the [notebook](https://github.com/MathCryptoDoc/polkadot-optimized/blob/main/notebook/analyze-0-9-27-Ryzen3600.ipynb) for details.
+{{< /hint >}}
+
 The result are 50 different *builds* (including the official polkadot binary and docker image) that are listed below:
 
 {{< expand "Build options" "Click to expand..." >}}
