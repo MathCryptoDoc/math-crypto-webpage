@@ -29,6 +29,7 @@ While not very powerful nor recent, this cpu is quite popular. **It benefits a l
 | 7          |       1003.5 |                      -0.6 |            684   |                          25.7 |         86683 |                       11.4 | stable      |               1 | thin       |           3 |
 | official   |       1010   |                           |            544.1 |                               |         97889 |                            | nightly     |              16 | thin local |           3 |
 | docker     |        972.1 |                      -3.7 |            531   |                          -2.4 |        100515 |                       -2.7 | nightly     |              16 | thin local |           3 |
+| production         |        959.7 |                      -5   |            703.1 |                          29.2 |         85197 |                       13   | nightly     |               1 | fat        |      3 |
 {{< /bootstrap-table >}}
 
 ### Intel i7 12700 (skylake)
@@ -43,6 +44,7 @@ A very recent cpu with excellent performance for the official binary. **Optimiza
 | 14         |         1400 |                       4.5 |           1020   |                           1.9 |         55013 |                        0.5 | stable      |               1 | fat        |           2 |
 | official   |         1340 |                          |           1001.4 |                              |         55263 |                          | nightly         |             16 | thin local        |         3 |
 | docker     |         1340 |                       0   |           1002.6 |                           0.1 |         55423 |                       -0.3 | nightly     |              16 | thin local |           3 |
+| production         |         1350 |                       0.7 |            999.6 |                          -0.2 |         55317 |                       -0.1 | nightly     |               1 | fat        |           3 |
 {{< /bootstrap-table >}}
 
 
@@ -55,8 +57,8 @@ An old Xeon from 2014 that would not be adequate for a polkadot validator. **Opt
 |:-----------|-------------:|--------------------------:|-----------------:|------------------------------:|--------------:|---------------------------:|:------------|----------------:|:-----------|------------:|
 | 3          |        711.4 |                       5.3 |            479.5 |                          17   |        129757 |                        3.9 | stable      |               1 | thin       |           3 |
 | 9          |        687.4 |                       1.7 |            479.2 |                          16.9 |        124197 |                        8   | stable      |              16 | fat        |           3 |
-| 13         |        692.1 |                       2.4 |            473.4 |                          15.5 |        124522 |                        7.8 | nightly     |               1 | fat        |           3 |
 | official   |        675.7 |                           |            409.9 |                               |        135009 |                         | nightly     |              16 | thin local |           3 |
+| production         |        692.1 |                       2.4 |            473.4 |                          15.5 |        124522 |                        7.8 | nightly     |               1 | fat        |           3 |
 {{< /bootstrap-table >}}
 
 
