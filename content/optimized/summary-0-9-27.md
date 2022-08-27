@@ -18,7 +18,7 @@ The column **impr. (%)** is the *relative* improvement in percentage compared to
 
 
 
-### AMD Ryzen 5 3600
+### AMD Ryzen 5 3600 (znver2)
 
 While not very powerful nor recent, this cpu is quite popular. **It benefits a lot from optimization: 25% and 10% improvement for SR25519-Verify and Extrinsic timing**, resp., at the expense of -1% for BLAKE2-256.
 
@@ -31,7 +31,7 @@ While not very powerful nor recent, this cpu is quite popular. **It benefits a l
 | docker     |        972.1 |                      -3.7 |            531   |                          -2.4 |        100515 |                       -2.7 | nightly     |              16 | thin local |           3 |
 {{< /bootstrap-table >}}
 
-### Intel i7 12700
+### Intel i7 12700 (skylake)
 
 A very recent cpu with excellent performance for the official binary. **Optimization improves all the numbers but the effect is limited**: about 2% to 5%.
 
@@ -43,6 +43,20 @@ A very recent cpu with excellent performance for the official binary. **Optimiza
 | 14         |         1400 |                       4.5 |           1020   |                           1.9 |         55013 |                        0.5 | stable      |               1 | fat        |           2 |
 | official   |         1340 |                          |           1001.4 |                              |         55263 |                          | nightly         |             16 | thin local        |         3 |
 | docker     |         1340 |                       0   |           1002.6 |                           0.1 |         55423 |                       -0.3 | nightly     |              16 | thin local |           3 |
+{{< /bootstrap-table >}}
+
+
+### Intel Xeon E5-2620 v3 (haswell)
+
+An old Xeon from 2014 that would not be adequate for a polkadot validator. **Optimization leads to improved performance in all three scores of about 5% to 15%.**
+
+{{< bootstrap-table table_class="table table-dark table-striped table-bordered" >}}
+|  build   |   BLAKE2-256 |   impr. (%) |   SR25519-Verify |   impr. (%) |   Extr-Remark |   impr. (%) | toolchain   |   codegen-units | lto        |   opt-level |
+|:-----------|-------------:|--------------------------:|-----------------:|------------------------------:|--------------:|---------------------------:|:------------|----------------:|:-----------|------------:|
+| 3          |        711.4 |                       5.3 |            479.5 |                          17   |        129757 |                        3.9 | stable      |               1 | thin       |           3 |
+| 9          |        687.4 |                       1.7 |            479.2 |                          16.9 |        124197 |                        8   | stable      |              16 | fat        |           3 |
+| 13         |        692.1 |                       2.4 |            473.4 |                          15.5 |        124522 |                        7.8 | nightly     |               1 | fat        |           3 |
+| official   |        675.7 |                           |            409.9 |                               |        135009 |                         | nightly     |              16 | thin local |           3 |
 {{< /bootstrap-table >}}
 
 
