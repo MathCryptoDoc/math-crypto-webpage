@@ -9,6 +9,8 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
 
+buildDrafts = false
+
 # Required if you want to render robots.txt template
 enableRobotsTXT = true
 

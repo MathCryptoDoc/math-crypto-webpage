@@ -7,17 +7,17 @@ geekdocAnchor: false
 
 <!-- Welcome at Math Crypto Staking.  -->
 
-Math Crypto Staking is part of [Kusama](https://kusama.network/) -- the canary network of Polkadot.
+Math Crypto Staking is part of [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/) -- the canary network of Polkadot.
 
 {{< columns >}}
 
-### Kusama validators
+### Polkadot and Kusama validators
 
-We operate two validators for Kusama in the 1000 validator programme.
+We operate validators for Polkadot and Kusama in the 1000 validator programme.
 
 Our validators are constantly monitored and run on high performing hardware. 
 
-{{< button size="large" relref="/staking/kusama" >}}Stake with us!{{< /button >}}
+{{< button size="large" relref="/staking/staking" >}}Stake with us!{{< /button >}}
 
 <--->
 

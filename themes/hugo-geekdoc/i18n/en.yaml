@@ -39,7 +39,10 @@ posts_tagged_with: All posts tagged with '{{ . }}'
 footer_build_with: >  
   <svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
   <a href="https://kusama.subscan.io/validator/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq" class="gdoc-footer__link">
-  EARQ...pFAq</a>
+  KSM: EARQ...pFAq</a>
+  <svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
+  <a href="https://polkadot.subscan.io/validator/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A" class="gdoc-footer__link">
+  DOT: 1bjt...A23A</a>
 footer_legal_notice: Legal Notice
 footer_privacy_policy: Privacy Policy
 footer_content_license_prefix: >
