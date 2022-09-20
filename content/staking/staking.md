@@ -5,15 +5,17 @@ weight: -10
 
 If you want to stake with us, we recommend to use the following two validators.
 
+**Polkdot: MathCrypto/1** -- maximizes your return of investment! 
+- Address: [1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A](https://polkadot.subscan.io/validator/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A)
+- *Low commission*: 1.0000000% 
+- Dashboard: [polkachu](https://polkachu.com/polkadot/validators/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A)
+
 **Kusama: MathCrypto/1** -- maximizes your return of investment! 
 - Address: [EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq](https://kusama.subscan.io/validator/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq)
 - *Low commission*: 3.1415926% 
 - Dashboard: [polkachu](https://polkachu.com/kusama/validators/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq)
 
-**Polkdot: MathCrypto/1** 
-- Address: [1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A](https://polkadot.subscan.io/validator/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A)
-- Commission: 5%
-- Dashboard: [polkachu](https://polkachu.com/polkadot/validators/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A)
+
 
 
 See [here for instructions](https://wiki.polkadot.network/docs/maintain-guides-how-to-nominate-polkadot#step-2-nominate-a-validator) on how to nominate. There is also a nice [YouTube video](https://www.youtube.com/watch?v=FCXC0CDhyS4).
