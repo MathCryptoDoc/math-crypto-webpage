@@ -18,7 +18,7 @@ In the [near future](https://github.com/paritytech/polkadot/pull/6366), you can 
 {{< /hint >}}
 
 {{< hint type=important >}}
-If you already voted or have a prior delegation set up with the sending account (in step 4 below), the procedure will not work. You first need to unvote or undelegate. More explanation on how to do this will follow...
+If you have **voted or delegated already** with the sending account (in step 4 below), the procedure will not work. You first need to unvote or undelegate. More explanation on how to do this will follow...
 {{< /hint >}}
 
 
