@@ -5,15 +5,14 @@ weight: -10
 
 If you want to stake with us, we recommend to use the following two validators.
 
-**Polkdot: MathCrypto/1** -- maximizes your return of investment! 
+**Polkdot: MathCrypto/1** 
 - Address: [1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A](https://polkadot.subscan.io/validator/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A)
-- *Low commission*: 1.0000000% 
-- Dashboard: [polkachu](https://polkachu.com/polkadot/validators/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A)
+- Dashboard: [1kv insights](https://insights.math-crypto.com/polkadot/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A/)
 
-**Kusama: MathCrypto/1** -- maximizes your return of investment! 
+**Kusama: MathCrypto/1**
 - Address: [EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq](https://kusama.subscan.io/validator/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq)
 - *Low commission*: 3.1415926% 
-- Dashboard: [polkachu](https://polkachu.com/kusama/validators/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq)
+- Dashboard: [1kv insights](https://insights.math-crypto.com/kusama/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq/)
 
 
 
@@ -32,10 +31,10 @@ You can nominate more than one validator with your funds. The validators that ge
 
 In addition, we have the following Kusama validator. 
 
-**Kusama: MathCrypto/2** -- beware: high commission!
+**Kusama: MathCrypto/2** -- beware: higher commission!
 - Address: [Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S](https://kusama.subscan.io/validator/Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S)
-- Commission: 15%
-- Dashboard: [polkachu](https://polkachu.com/kusama/validators/Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S)
+- Commission: 10%
+- Dashboard: [1kv insights](https://insights.math-crypto.com/kusama/Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S/)
 
 
 
