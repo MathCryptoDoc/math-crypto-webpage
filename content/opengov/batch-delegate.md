@@ -10,7 +10,7 @@ Unfortunately, the user experience of delegating your votes is currently not ver
 Math Crypto has made an encoder for exactly such a batch call. Below are the instructions on how to use it:
 
 {{< hint type=important >}}
-The procedure below does not work with Ledger accounts (since the generated batch call is not supported by Ledger). 
+The procedure below does not work with Ledger accounts (since the generated batch call is not supported by Ledger). In addition, using proxy calls for OpenGov is currently [not yet enabled](https://github.com/paritytech/polkadot/issues/6333) but will [be fixed soon](https://github.com/paritytech/polkadot/pull/6366).
 {{< /hint >}}
 
 
