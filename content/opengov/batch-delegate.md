@@ -18,7 +18,7 @@ In the [near future](https://github.com/paritytech/polkadot/pull/6366), you can 
 {{< /hint >}}
 
 {{< hint type=important >}}
-If you voted with the sending account (in step 4 below), the procedure will not work. You first need to unvote. 
+If you already voted with the sending account (in step 4 below), the procedure will not work. You first need to unvote. More explanation on how to do this will follow...
 {{< /hint >}}
 
 
@@ -49,7 +49,7 @@ The balance is in Planck units: the normal KSM amount times 1e12 (100...000 with
 
 6) Submit password, choose *Sign and submit*. If you have a proxy for the account, you can choose it here. Remember to only use **Any** proxies. 
 
-7) If there is no red icon in the top right corner, the extrinsic was successful. Your account is now delegating its votes for all referenda!
+7) If you get a green icon in the top-right corner, the extrinsic was successful. Your account is now delegating its votes for all referenda! A yellow icon might indicate errors or warnings. Please check your delegation.
 
 
 {{< hint type=tip >}}
