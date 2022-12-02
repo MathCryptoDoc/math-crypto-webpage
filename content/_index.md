@@ -31,3 +31,21 @@ By compiling yourself, validators can run at optimal performance!
 
 {{< /columns >}}
 
+{{< columns >}}
+
+### 1kv insights page
+
+Insights in the 1kv programme and its validators -- for Polkadot and Kusama. Currently a work in progress!
+
+{{< button size="large" href="https://insights.math-crypto.com" >}}1kv insights{{< /button >}}
+
+<--->
+
+### Batch delegation for OpenGov
+
+To delegate your votes for all referanda in one batch call, we have a simple procedure. It can also be used to change your delegations.
+
+{{< button size="large" relref="/opengov/batch-delegate" >}}Batch delegate{{< /button >}}
+
+{{< /columns >}}
+
