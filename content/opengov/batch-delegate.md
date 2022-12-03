@@ -5,7 +5,7 @@ weight: -10
 
 It is expected that OpenGov (formerly known as Gov2.0) will lead to much more referenda than before. **Delegation of your votes to an account whose voting behavior you trust is therefore a good option.**
 
-Unfortunately, the user experience of delegating your votes is currently not very smooth. You can in principle issue an extrinsic on [Polkadot.js](https://polkadot.js.org/) or you could delegate on [SubSquare](https://kusama.subsquare.io). However, both interfaces require you to perform the action for *each referendum track individually*. Since there are 15 tracks, it would be better to issue one batch call.
+Unfortunately, the user experience of delegating your votes is currently not very smooth. You can in principle issue an extrinsic on [Polkadot.js](https://polkadot.js.org/) or you could delegate on [SubSquare](https://kusama.subsquare.io) or on [Polkassembly](https://kusama.polkassembly.io/). However, both interfaces require you to perform the action for *each referendum track individually*. Since there are 15 tracks, it would be better to issue one batch call.
 
 **Math Crypto has made an encoder for exactly such a batch call.**
 
@@ -18,11 +18,11 @@ In the [near future](https://github.com/paritytech/polkadot/pull/6366), you can 
 {{< /hint >}}
 
 {{< hint type=important >}}
-If you have **voted or delegated already on OpenGov** with the sending account (in step 4 below), the procedure will not work. You first need to unvote or undelegate. More explanation on how to do this will follow...
+If you have **voted or delegated already on OpenGov** with the sending account (in step 4 below), you need to send two extrinsics: one for removing the existing votes/delegations and one for setting up the new delegations. If unsure, do both extrinsics.
 {{< /hint >}}
 
 
-Instructions:
+Instructions on how to send the delegate extrinsic (the remove extrinsic is very similar):
 1) Go to our [Delegation Encoder](https://backend-opengov.math-crypto.com/) page to generate your hash.
 
 
