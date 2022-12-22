@@ -14,7 +14,7 @@ In you want to delegate from a **Ledger account** (the sending account in step 4
 {{< /hint >}}
 
 {{< hint type=tip >}}
-You can also check out this [short explanation](https://youtu.be/ZcqOTNzmGr0?t=728) by [Leemo](https://twitter.com/leemoyoutube).
+You can also check out this [short explanation on YouTube](https://youtu.be/ZcqOTNzmGr0?t=728) by [Leemo](https://twitter.com/leemoyoutube).
 {{< /hint >}}
 
 {{< hint type=important >}}
