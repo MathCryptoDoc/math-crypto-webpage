@@ -38,11 +38,11 @@ posts_tagged_with: All posts tagged with '{{ . }}'
 # <svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>  
 footer_build_with: >  
   <svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
-  <a href="https://kusama.subscan.io/validator/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq" class="gdoc-footer__link">
-  KSM: EARQ...pFAq</a>
+  <a href="https://kusama.subscan.io/account/GU77syTfPXdzKCuqASura9ZKgxmD2rEDhj89c9TGL6vc9Qw" class="gdoc-footer__link">
+  KSM: GU77...c9Qw</a>
   <svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
-  <a href="https://polkadot.subscan.io/validator/1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A" class="gdoc-footer__link">
-  DOT: 1bjt...A23A</a>
+  <a href="https://polkadot.subscan.io/account/16CxXYoq9joofWE13zWuWBfd4tx3kQhXJECLLkhMLgWjYyHG" class="gdoc-footer__link">
+  DOT: 16Cx...YyHG</a>
 footer_legal_notice: Legal Notice
 footer_privacy_policy: Privacy Policy
 footer_content_license_prefix: >
