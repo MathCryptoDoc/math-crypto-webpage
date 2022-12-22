@@ -10,9 +10,12 @@ Unfortunately, the user experience of delegating your votes is currently not ver
 **Math Crypto has made an encoder for exactly such a batch call.**
 
 {{< hint type=important >}}
-In you want to delegate from a **Ledger account** (the sending account in step 4 below), you first need to have a **Governance** or Any proxy for it.  Read this [support article] (https://support.polkadot.network/support/solutions/articles/65000182179-how-to-create-a-proxy-account) by the W3F on how to create and remove a proxy.
+In you want to delegate from a **Ledger account** (the sending account in step 4 below), you first need to have a **Governance** or Any proxy for it.  Read this [support article](https://support.polkadot.network/support/solutions/articles/65000182179-how-to-create-a-proxy-account) by the W3F on how to create and remove a proxy.
 {{< /hint >}}
 
+{{< hint type=tip >}}
+You can also check out this [short explanation](https://youtu.be/ZcqOTNzmGr0?t=728) by [Leemo](https://twitter.com/leemoyoutube).
+{{< /hint >}}
 
 {{< hint type=important >}}
 If you have **voted or delegated already on OpenGov** with the sending account (in step 4 below), you need to send two extrinsics: one for removing the existing votes/delegations and one for setting up the new delegations. If unsure, do both extrinsics.
