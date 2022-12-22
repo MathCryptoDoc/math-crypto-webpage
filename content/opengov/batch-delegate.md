@@ -10,12 +10,9 @@ Unfortunately, the user experience of delegating your votes is currently not ver
 **Math Crypto has made an encoder for exactly such a batch call.**
 
 {{< hint type=important >}}
-In you want to delegate from a Ledger account (the sending account in step 4 below), you first need to have an **Any** proxy for it. *It is highly recommended to remove this Any proxy after you have performed the delegation.*
+In you want to delegate from a **Ledger account** (the sending account in step 4 below), you first need to have a **Governance** or Any proxy for it.  Read this [support article] (https://support.polkadot.network/support/solutions/articles/65000182179-how-to-create-a-proxy-account) by the W3F on how to create and remove a proxy.
 {{< /hint >}}
 
-{{< hint type=tip >}}
-In the [near future](https://github.com/paritytech/polkadot/pull/6366), you can use a **Governance** proxy to delegate from Ledger accounts. But [not right now](https://github.com/paritytech/polkadot/issues/6333).
-{{< /hint >}}
 
 {{< hint type=important >}}
 If you have **voted or delegated already on OpenGov** with the sending account (in step 4 below), you need to send two extrinsics: one for removing the existing votes/delegations and one for setting up the new delegations. If unsure, do both extrinsics.
@@ -39,7 +36,7 @@ The balance is in Planck units: the normal KSM amount times 1e12 (100...000 with
 
 ![Submitted hex-encoded call](encoder-hex-call-submitted.png)
 
-4) Choose the account that you want to delegate from (your own account) in the ``using the selected account``. This can be a Ledger account as long as you have an **Any** proxy for it.
+4) Choose the account that you want to delegate from (your own account) in the ``using the selected account``. This can be a Ledger account as long as you have a **Governance** or Any proxy for it.
 
 ![Choose sender account](submit-from-account.png)
 
@@ -47,7 +44,7 @@ The balance is in Planck units: the normal KSM amount times 1e12 (100...000 with
 
 ![Sign the message](submit-sign.png)
 
-6) Submit password, choose *Sign and submit*. If you have a proxy for the account, you can choose it here. Remember to only use **Any** proxies. 
+6) Submit password, choose *Sign and submit*. If you have a proxy for the account, you can choose it here. Remember to only use **Governance** or Any proxies. 
 
 7) If you get a green icon in the top-right corner, the extrinsic was successful. Your account is now delegating its votes for all referenda! A yellow icon might indicate errors or warnings. Please check your delegation.
 
