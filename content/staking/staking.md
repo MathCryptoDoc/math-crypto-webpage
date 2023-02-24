@@ -31,14 +31,15 @@ You can nominate more than one validator with your funds. The validators that ge
 
 In addition, we have the following Kusama validators. 
 
-**Kusama: MathCrypto/1** -- beware: already independent!
-- Address: [Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S](https://kusama.subscan.io/validator/Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S)
+**Kusama: MathCrypto/1** -- beware: higher commission!
+- Address: [EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq](https://kusama.subscan.io/validator/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq)
 - Commission: 10%
+- Dashboard: [1kv insights](https://insights.math-crypto.com/kusama/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq/)
+
+**Kusama: MathCrypto/2** -- beware: already independent!
+- Address: [Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S](https://kusama.subscan.io/validator/Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S)
+- Commission: 15%
 - Dashboard: [1kv insights](https://insights.math-crypto.com/kusama/Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S/)
 
-**Kusama: MathCrypto/2** -- beware: higher commission!
-- Address: [EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq](https://kusama.subscan.io/validator/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq)
-- Commission: 15%
-- Dashboard: [1kv insights](https://insights.math-crypto.com/kusama/EARQCUK4Y3oN3LCuyjriBxPesNAuQWa7ifjsfNSU6srpFAq/)
 
 
